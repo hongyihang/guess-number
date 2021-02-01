@@ -20,7 +20,7 @@ int main() {
 #if defined(_MSC_VER)
 		scanf_s("%d", &guess_number_);
 #else
-        scanf("%d", &guess_number_);
+		scanf("%d", &guess_number_);
 #endif
 		if (guess_number_ > rand_number_) {
 			puts("你猜的数字大了\n");
